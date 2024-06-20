@@ -78,6 +78,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DS1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="FormDonDatHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDonDatHang.Designer.cs">
+      <DependentUpon>FormDonDatHang.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormKho.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -146,6 +152,12 @@
     <Compile Include="Report\FormSupport.Designer.cs">
       <DependentUpon>FormSupport.cs</DependentUpon>
     </Compile>
+    <Compile Include="Report\FormTongHopNhapXuat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Report\FormTongHopNhapXuat.Designer.cs">
+      <DependentUpon>FormTongHopNhapXuat.cs</DependentUpon>
+    </Compile>
     <Compile Include="Report\ReportChiTietSoLuongTriGiaHangHoa.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -188,6 +200,9 @@
     <Compile Include="FormTaoTK.Designer.cs">
       <DependentUpon>FormTaoTK.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FormDonDatHang.resx">
+      <DependentUpon>FormDonDatHang.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormKho.resx">
       <DependentUpon>FormKho.cs</DependentUpon>
     </EmbeddedResource>
